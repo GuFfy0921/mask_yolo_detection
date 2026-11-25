@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Salidas del notebook (se regeneran)
+runs_c10/
+resultados_c10/
+datos_proyecto/
+datos_caras/
+dataset.zip
+ejemplos.zip
+ejemplos/
+*.pt
+*.onnx
+video_detectado.mp4

@@ -1,0 +1,13 @@
+# Dependencias para ejecutar el notebook fuera de Colab.
+# En Colab, las celdas de la Parte 0 instalan lo que falta automáticamente.
+ultralytics>=8.4.202
+torch>=2.0
+opencv-python>=4.8
+PyYAML>=6.0
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+Pillow>=10.0
+gdown>=5.0
+kagglehub>=0.2
