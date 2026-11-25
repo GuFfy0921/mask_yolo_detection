@@ -3,6 +3,11 @@
 **Proyecto universitario de Machine Learning — Universidad Bernardo O'Higgins**
 Autores: Cristóbal Araos · Martín Garrido
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuFfy0921/mask_yolo_detection/blob/main/notebooks/mask_detection_yolo26.ipynb)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)
+![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLO26-orange)
+
 > Detector de visión por computador que localiza rostros y clasifica el estado de la mascarilla en tres clases: `with_mask`, `without_mask` y `mask_weared_incorrect`. Se plantea como un **complemento visual** para MediTriage, un sistema de apoyo al triaje de urgencias que clasifica la escala ESI a partir de los síntomas que describe el paciente. MediTriage "escucha"; este detector "observa".
 
 ![Comparación de modelos en Validation](assets/validation_model_comparison.png)
@@ -97,7 +102,7 @@ Trabajo futuro propuesto: comparar 416 vs 640 px, probar otros modelos base, rep
 
 El notebook está pensado para **Google Colab con GPU T4**. En local, las rutas de descarga de la Parte 3A están fijadas a `/content`, así que se recomienda ejecutarlo en Colab.
 
-1. Abrir `notebooks/mask_detection_yolo26.ipynb` en [Google Colab](https://colab.research.google.com/).
+1. Abrir el notebook con un clic: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuFfy0921/mask_yolo_detection/blob/main/notebooks/mask_detection_yolo26.ipynb) — o manualmente desde `notebooks/mask_detection_yolo26.ipynb` en [Google Colab](https://colab.research.google.com/).
 2. `Entorno de ejecución → Cambiar tipo de entorno de ejecución → T4 GPU → Guardar`.
 3. Ejecutar las celdas en orden (Parte 0 a Parte 10). El notebook descarga el ZIP del dataset y el material externo desde Google Drive.
 4. Los modelos, figuras y métricas quedan en `resultados_c10/`; la Parte 10 genera un ZIP para descargar antes de cerrar la sesión.
